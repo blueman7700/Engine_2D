@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Component">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAABAAAAAIAAAAAAAAAAAIAAAAAAAAEAAA=</HashCode>
+      <FileName>src\ECS\ECS.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entity">
+    <Position X="10.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GCAAAAAgAAAAAAAkCAKAAFAEAEAAAAAAIAAAIAAEAAg=</HashCode>
+      <FileName>src\ECS\ECS.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Manager">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAIAAAAAAAAAAQAAAADABACEAAA=</HashCode>
+      <FileName>src\ECS\ECS.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game">
+    <Position X="12.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABBABAAQAAAAgAiAAAIIAABAEAAUgAA=</HashCode>
+      <FileName>src\Game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObject">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAICgAAAABgAAIUAAA=</HashCode>
+      <FileName>src\GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logger">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Logger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextureManager">
+    <Position X="14.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\TextureManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TileMap">
+    <Position X="16" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAABAAAAAAAAAAACAAA=</HashCode>
+      <FileName>src\TileMap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ColliderComponent">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAQAQAAAAAAAAAAEAAIAAAAAGAAEAIA=</HashCode>
+      <FileName>src\ECS\ColliderComponent.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyboardController">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABEAAIEBQIBAAAEAAA=</HashCode>
+      <FileName>src\ECS\KeyboardController.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpriteComponent">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAIIAIAAACAAEQAJqABAQAQAEQAA=</HashCode>
+      <FileName>src\ECS\SpriteComponent.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TileComponent">
+    <Position X="5.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAABAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>src\ECS\TileComponent.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimationComponent">
+    <Position X="2.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAEAAAAAAAAAgAAIAAAAAAAAgMAAAAAAAAgAkAAA=</HashCode>
+      <FileName>src\ECS\AnimationComponent.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="TransformComponent">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAACAAIAABAAAAAAAAAQAAAAEAAA=</HashCode>
+      <FileName>src\ECS\TransformComponent.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Animation">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAgAAAAAAAAAAAAAAAAAAAAQAEAAA=</HashCode>
+      <FileName>src\ECS\Animation.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="LogType">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAEAAAAAAAIAAAAAAABAAAAAA=</HashCode>
+      <FileName>src\Logger.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TileType">
+    <Position X="5.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAgAACAAAAAACACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\ECS\TileComponent.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
